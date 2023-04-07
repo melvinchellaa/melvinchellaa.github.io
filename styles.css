@@ -196,7 +196,7 @@ img {
   position: relative;  
   width: 30vh;
   height: 40vh;
-  border: 1px solid black; 
+  border: 1px; 
   padding: 10px; 
   margin: 20px; 
   text-align: center; 
@@ -397,4 +397,6 @@ td div {
 .hero-image {
   width: 100%;
   height: auto;
+  max-height: 25vh; 
+  object-fit: cover; 
 }
