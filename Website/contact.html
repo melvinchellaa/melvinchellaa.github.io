@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = en>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width">
+        <link rel="shortcut icon" type="image/x-icon" href="../Assets/favicon-32x32.png">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Melvin's Website</title>
+    </head>
+    <body>
+        
+        <div class = "navbar">
+            <a href = "index.html">About Me</a>
+            <a href = "experience.html"> Experience & Education</a>
+            <a href = "contact.html" class = "active"> Contact </a>
+            <a href = "skills.html"> Skills & Interests</a>
+        </div>
+        <header>
+          <button id="contrast-mode">Contrast Mode</button>
+          <button id="light-mode">Light Mode</button>
+          <button id="dark-mode">Dark Mode</button>
+        </header>
+        
+        <br>
+        <br>
+        <main>
+            <table>
+                <tr>
+                  <th>Job-Related</th>
+                  <th>Academic</th>
+                  <th>Casual</th>
+                </tr>
+                <tr>
+                  <td>
+                    <a href="https://www.linkedin.com/in/melvin-chellaa-55009b262/" id = "linkedin">Connect with me on LinkedIn</a>
+                  </td>
+                  <td>
+                    <div>Outlook: ml243232@dal.ca</div>
+                  </td>
+                  <td>
+                    <a href="https://www.instagram.com/melvinchellaa/" id = "instagram">Follow me on Instagram</a>
+                  </td>
+                </tr>
+                <tr class = "outlier">
+                  <td>
+                    <div>Gmail: melvinchellaa@gmail.com</div>
+                  </td>
+                  <td colspan="2">
+                    <a href="https://www.github.com/melvinchellaa/" id = "github">Check out my GitHub Profile</a>
+                  </td>
+                </tr>
+              </table>
+
+              <form id="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+              
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+              
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+              
+                <input type="submit" value="Submit">
+              </form>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
+
